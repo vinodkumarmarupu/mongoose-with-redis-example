@@ -1,0 +1,19 @@
+{
+  "name": "mongoose-with-redis-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "config.json": "0.0.4",
+    "express": "^4.15.2",
+    "ioredis": "^2.5.0",
+    "mongoose": "^4.9.7",
+    "mongoose-with-redis": "^0.1.1"
+  }
+}
