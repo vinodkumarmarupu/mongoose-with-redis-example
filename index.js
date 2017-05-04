@@ -4,14 +4,13 @@ var redis = require('ioredis');
 var mongoose = require('mongoose');
 var mongoose_redis = require('mongoose-with-redis');
 
-
+//schema
 var db=require('./schema/employeeSchema.js');
 var bodyparser=require('body-parser');
 
+
 var config = require('config.json')('./config/development.json');
  
-app.use(bodyparser.json());
-app.use(bodyparser.urlencoded({ extended: true }));
 
 
 var redis_client = redis.createClient({host:config.redis.host,port:config.redis.port});
